@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign Up</title>
+    <link rel="Stylesheet" href="/STYLES/Signup.css">
+</head>
+<body>
+     
+        <div class="cont">
+            <h1 style="padding-top: 5% ;">Sign Up</h1>
+            <br>
+            <br>
+            <p>Please fill this form to create an account.</p>
+            <br>
+            <br>
+            <label for="email "><b>Email:</b></label>
+            <input type="text" id="email" placeholder="Enter Email" name="email"required>
+            <br>
+            <br>
+            <label for="Pass"><b>Password:</b></label>
+            <input type="password" id="password" placeholder="password" name="Password"  required>
+            <br>
+            <br>
+            <label for="psw-repeat"><b>psw-repeat:</b></label>
+            <input type="password" id="RePass" placeholder="Reapet-password" name="psw-repeat" required>
+            <br>
+            <br>
+            <label>
+                <input type="checkbox" checked="checked" name="remember" style="margin-bottom: 15px;">remember me
+            </label>
+            <br>
+            
+            <button >Cancel</button>
+            <button onclick="valid()">SignUp</button>
+        
+        </div>
+    
+    <script src="/SCRIPTS/signup.js"></script>
+
+</body>
+</html>
